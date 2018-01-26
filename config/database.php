@@ -65,7 +65,7 @@ return [
             'driver' => 'mysql',
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env( 'MYSQL_USERNAME', 'DB_DATABASE_TEST', 'forge')),
+            'database' => env( 'MYSQL_USER', 'DB_DATABASE_TEST', 'forge')),
             'username' => env( 'MYSQL_PASSWORD', 'DB_USERNAME', '')),
             'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
